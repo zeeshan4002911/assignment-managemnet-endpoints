@@ -45,7 +45,7 @@ router.get("/", async (req, res) => {
         })
     }
 })
-
+/*
 router.get("/students", async (req, res) => {
     try {
         const students = await Student.find({}, { data: 0, __v: 0 });
@@ -59,7 +59,7 @@ router.get("/students", async (req, res) => {
         })
     }
 })
-
+*/
 
 router.get("/:myClassId", async (req, res) => {
     try {
